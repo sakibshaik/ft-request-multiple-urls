@@ -1,0 +1,20 @@
+{
+  "name": "ft-request-multiple-urls",
+  "version": "1.0.0",
+  "description": "Fetches an array of URLs which contain JSON data and returns their contents in a promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha tests/**/*.test.js --exit --silent --reporter spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "install": "^0.13.0",
+    "mocha": "^8.4.0",
+    "nock": "^13.0.11",
+    "sinon": "^11.1.1"
+  }
+}
